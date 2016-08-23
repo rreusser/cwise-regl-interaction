@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cwise": "^1.0.9",
+    "cwise": "https://github.com/rreusser/cwise.git",
     "regl": "^1.1.0"
   },
   "devDependencies": {
