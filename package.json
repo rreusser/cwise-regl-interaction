@@ -1,0 +1,21 @@
+{
+  "name": "cwise-regl-interaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify -g [ babelify --presets [ es2015 ] ] -g cwise index.js > bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cwise": "^1.0.9",
+    "regl": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0"
+  }
+}
